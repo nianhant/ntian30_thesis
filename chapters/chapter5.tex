@@ -1,0 +1,52 @@
+
+\chapter{Conclusions and Future Work}
+This thesis presents a computational framework for understanding and designing catalysts for nitrogen conversion processes under ambient and electrochemical conditions. Across three core chapters, we investigate distinct but interrelated challenges in nitrogen fixation and recovery, emphasizing realistic operating conditions and theory–experiment integration.
+
+
+\section{Chapter Summary}
+
+In Chapter 2, we demonstrate that carbon radicals formed during photocatalysis can interact directly with nitrogen, forming intermediates such as diazo species and methylamine precursors. Supported by experimental spectroscopy and DFT calculations, we propose a thermodynamically feasible catalytic cycle for carbon-assisted photocatalytic nitrogen fixation on titania. This work bridges a critical gap between surface spectroscopy observations and atomic-scale theory, introducing carbon-nitrogen (C–N) coupling as a plausible and underexplored step in photocatalytic nitrogen fixation pathway.
+
+In Chapter 3, we identify N$_2$ vs. O$_2$ selectivity as a critical descriptor for evaluating photocatalysts capable of selective nitrogen reduction under ambient conditions. By assessing adsorption energetics, we demonstrate that catalysts with weak O$_2$ adsorption and favorable N$_2$ binding are more likely to achieve ammonia production using air as the N$_2$ source. This selectivity descriptor complements traditional band alignment metrics and can guide high-throughput screening toward materials with better ambient performance.
+
+In Chapter 4, we address the practical implementation of electrocatalytic nutrient recovery via EWAS. Using Pourbaix stability analysis, we evaluate the thermodynamic bulk stability of transition metal electrodes under nitrogen-rich, alkaline conditions, and pulsing applied potentials. We find that bulkd electrode stability is a necessary (though not sufficient) screening criterion for practical and sustainable EWAS operation.
+
+Collectively, this thesis provides new insight into how catalyst design must balance both reactivity and stability, especially under complex aqueous and electrochemical environments. By integrating thermodynamic modeling, surface science, and experimental validation, this work advances data-driven and mechanistically informed strategies for designing practical catalysts for sustainable nitrogen transformations.
+
+
+% Chapter summary/overview– we have shown 
+% Carbon-nitrogen interaction during photocatalysis
+% N2 vs O2 selectivity is important descriptor when screening photocatalysts for ambient operations
+% Electrode bulk stability is a necessary first step during material screening for EWAS
+% Implications: integrate stability and reactivity, bridge theory and experiments, thesis advances approaches for catalyst design under practically relevant conditions
+% 1. C-N: gap theory & experiments
+% 2. Practical problem solving, considers conditions, priorize practicality
+
+
+\section{Future Outlook}
+Despite the progress made in this thesis, substantial challenges remain in realizing efficient, scalable photocatalytic nitrogen conversion processes. One of the most persistent issues in photocatalytic nitrogen fixation is the lack of consistent and reproducible photocatalysis experimental protocols. Ammonia production yields remain low, and the possibility of contamination or false positives often complicates interpretation \cite{Huang2024BenchmarkingReaction}. Moving forward, the field would greatly benefit from benchmark protocols that incorporate isotopic labeling, standardized quantification, and surface-sensitive characterization. These benchmarks would make it easier to compare catalytic performance across studies and to validate mechanistic hypotheses emerging from theory.
+
+The computational studies presented here can be expanded in multiple directions, but such efforts must be guided by stronger experimental foundations. Before proceeding to more sophisticated theoretical approaches, such as constrained DFT or molecular dynamics to evaluate kinetics or transient states, it is important to strengthen the experimental evidence supporting the proposed mechanisms. In particular, the formation of the observed ammonia in Chapter 2 remains uncertain and may involve contributions from nitrogen-containing contaminants. Nevertheless, the discovery that photocatalytic C–N coupling could facilitate ammonia formation by forming key intermediate species offers valuable insight with implications that can extend beyond nitrogen fixation \cite{Li2025PhotocatalyticSynthesis, tao2021accessing, Wang2022RealizingIntermediates, Li2023ElectrosynthesisReactors}.
+
+% Advancing theoretical models without greater experimental confidence risks overinterpreting trends or misrepresenting reaction energetics. Therefore, future computational efforts should be closely aligned with spectroscopic and kinetic experiments that can validate key assumptions and boundary conditions.
+
+% In particular, the C–N coupling pathways outlined in Chapter 2 remain speculative without conclusive isotope-labeling studies. 
+
+In terms of descriptor development, the N$_2$/O$_2$ selectivity criterion established in Chapter 3 can be generalized to other competing species and reaction environments. Expanding this framework to include surface coverage effects, co-adsorption dynamics, or turnover rates could enable more robust screening workflows. Additionally, coupling these descriptors with machine learned potentials could allow rapid, large-scale identification of promising catalyst surfaces with minimal reliance on high-throughput quantum calculations.
+
+The electrode stability analysis in Chapter 4 opens another avenue for future work: the development of high-throughput Pourbaix screening pipelines with built-in uncertainty quantification. Given the inherent approximation errors in DFT calculations (on the order of $\pm$0.2 eV), incorporating stochastic perturbations or ensemble methods could help estimate confidence intervals for predicted stability domains. Visualizing these domains under variable pH and potential ranges would also facilitate more intuitive material selection for wastewater treatment and other electrochemical processes.
+
+Perhaps most importantly, future efforts should strengthen the feedback loop between theory and experiment. The hypothesis of carbon-assisted nitrogen activation emerged from a close integration of experimental spectroscopy and DFT modeling. Similarly, the stability predictions for EWAS electrodes must be tested under practical electrolysis conditions. Interdisciplinary studies that incorporate spectroscopic tracking, electrochemical measurements, and computational validation will be essential for translating modeling insights into viable catalysts.
+
+Finally, while this thesis has primarily focused on ammonia as the product of interest, there is growing interest in broader nitrogen-containing compounds such as urea, hydrazine, or nitrate. These compounds could offer advantages in storage, transport, or application in agriculture. Understanding how catalyst composition and reaction environment affect product selectivity will therefore be an important extension of the current work.
+
+In conclusion, this thesis advances the field of nitrogen catalysis by providing rigorous frameworks to study surface reactivity, photocatalytic pathways, and electrochemical stability. By focusing on surface thermodynamics, descriptor-driven design, and practical relevance, it lays the groundwork for future efforts that aim to accelerate sustainable nitrogen chemistry at scale.
+
+
+
+
+
+
+
+
+

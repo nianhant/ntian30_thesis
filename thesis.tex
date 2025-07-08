@@ -1,0 +1,47 @@
+
+\documentclass[12pt]{gatechthesis}
+\usepackage[version=3]{mhchem} 
+% \usepackage{graphicx}
+
+% preamble
+
+\title{Computational Analysis and Screening of Nitrogen Conversion Reactions over Metal Oxide Surfaces}
+\author{Nianhan (Kaylee) Tian}
+\approvaldate{Jul 1, 2025}
+\school{School of Chemical \& Biomolecular Engineering (ChBE)}
+\department{College of Engineering}
+\degree{Doctor of Philosophy} 
+\addbibresource{references_carbon_radical.bib}
+\addbibresource{references_proposal.bib}
+\addbibresource{references_mendeley.bib}
+% \bibliography{achemso}
+
+
+
+\begin{document}
+
+\makeTitlePage{July}{2025}
+\input{approvalPage.tex}
+\makeEpigraph{Behind every stable catalyst and clean dataset is a graduate student and a very patient language model.}{ChatGPT}
+\makeDedication{To my younger self, \\ to the family who raised me, \\ and to the family I found along the way.}
+
+\begin{frontmatter}
+    \input{acknowledgments}
+    \makeTOC
+    \makeListOfTables
+    \makeListOfFigures
+    \input{abbrevs}
+    \input{summary}
+\end{frontmatter}
+
+\begin{thesisbody}
+    \input{chapters/chapter1}
+    \input{chapters/chapter2}
+    \input{chapters/chapter3}
+    % \input{chapters/chapter4}
+    \input{chapters/chapter5}
+    % \input{chapters/appendix.tex}
+    \makeBibliography
+\end{thesisbody}
+
+\end{document}
